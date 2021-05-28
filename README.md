@@ -11,3 +11,42 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 Fedora
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+
+
+Instalação das versões do nodejs para 
+(
+Ubuntu,
+Debian,
+Linux Mint,
+elementary OS -(via Ubuntu) 
+)
+
+
+
+Node.js v16.x
+# Using Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
+apt-get install -y nodejs
+
+Node.js v15.x
+# Using Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -fsSL https://deb.nodesource.com/setup_15.x | bash -
+apt-get install -y nodejs
+
+Node.js v14.x
+# Using Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
+apt-get install -y nodejs
