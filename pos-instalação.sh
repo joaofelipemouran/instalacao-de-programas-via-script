@@ -10,7 +10,7 @@ wget -c
 sudo dpkg -i *.deb
 
 sudo apt install snapd -y
-apt-get install git -y
+sudo apt-get install git -y
 add-apt-repository ppa:git-core/ppa -y
 apt update; apt install git -y
 
@@ -26,7 +26,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ## Instalando o node js 14 ##
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash - -y
 sudo apt-get install -y nodejs -y
-q
+
 ## Removendo travas eventuais do apt ##
 sudo rm /var/lib/dpkg/lock-frontend -y
 sudo rm /var/cache/apt/archives/lock -y
