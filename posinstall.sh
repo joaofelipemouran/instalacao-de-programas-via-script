@@ -65,7 +65,7 @@ sudo snap install vlc
 
 flatpak install flathub com.calibre_ebook.calibre
 flatpak install flathub org.gnome.Boxes
-
+flatpak install flathub com.stremio.Stremio
 
 ##Lutris e Wine##
 sudo add-apt-repository ppa:lutris-team/lutris
