@@ -37,23 +37,17 @@ sudo dpkg --add-architecture i386
 echo "Instalação dos programas snap"
 ## Instalação dos programas ##
 ## instalando o atom ##
-sudo snap install atom --classic 
 ## Instalando o Vscode ##
-sudo snap install code --classic 
 ## Discord ##
 sudo snap install discord
 ## Brave ##
-sudo snap install brave
-## onlyoffice ##
-sudo snap install onlyoffice-desktopeditors 
+## onlyoffice ## 
 ## htop ##
 sudo sudo apt-get install htop 
 ## obs studio ##
-sudo snap install obs-studio
 ## Gimp ##
 sudo snap install gimp
 ## bitwarden ##
-sudo snap install bitwarden
 ## spotify ##
 sudo snap install spotify
 ## snap-store ##
