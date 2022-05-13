@@ -24,8 +24,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ##Repositorio para instalar no pop os##
 ## flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo ##
 
-## Instalando o node js 14 ##
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+## Instalando o node js 16 ##
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 ## Removendo travas eventuais do apt ##
@@ -34,42 +34,6 @@ sudo rm /var/cache/apt/archives/lock -y
 
 ## Adicionando/Confirmando arquitetura de 32 bits ##
 sudo dpkg --add-architecture i386
-echo "Instalação dos programas snap"
-## Instalação dos programas ##
-## instalando o atom ##
-## Instalando o Vscode ##
-## Discord ##
-sudo snap install discord
-## Brave ##
-## onlyoffice ## 
-## htop ##
-sudo sudo apt-get install htop 
-## obs studio ##
-## Gimp ##
-sudo snap install gimp
-## bitwarden ##
-## spotify ##
-sudo snap install spotify
-## snap-store ##
-sudo snap install snap-store
-
-sudo snap install vlc
-
-## Instalando aplicativos flatpackt ##
-
-flatpak install flathub com.calibre_ebook.calibre
-flatpak install flathub org.gnome.Boxes
-flatpak install flathub com.stremio.Stremio
-
-##Lutris e Wine##
-sudo add-apt-repository ppa:lutris-team/lutris
-sudo apt update
-sudo apt install lutris 
-sudo dpkg --add-architecture i386 
-wget -nc https:winehq.key 
-sudo apt update
-sudo apt install --install-recommends winehq-stable 
-sudo apt install libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libsqlite3-0:i386
 
 sudo apt update && sudo apt dist-upgrade 
 flatpak update
